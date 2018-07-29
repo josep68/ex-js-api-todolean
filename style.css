@@ -24,6 +24,7 @@ background-color: transparent;
 margin: 10px auto;
 border: 2px solid white;
 padding: 8px;
+display: none;
 
 }
 .active {

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+}
+#container {
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+#btn, #submit{
+  height: 30px;
+  padding: 5px;
+}
+.item-template {
+width: 250px;
+height: 45px;
+background-color: transparent;
+margin: 10px auto;
+border: 2px solid white;
+padding: 8px;
+
+}
+.active {
+  display: block;
+}

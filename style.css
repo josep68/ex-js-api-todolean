@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
 }
 body {
   background-color: lightgrey;
@@ -9,24 +11,48 @@ body {
 #container {
   padding: 20px;
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
 }
 h1 {
   margin-bottom: 20px;
+  font-size: 35px;
 }
 #btn, #submit{
   height: 30px;
   padding: 5px;
 }
 .item-template {
-width: 250px;
-height: 45px;
-background-color: transparent;
-margin: 10px auto;
-border: 2px solid white;
-padding: 8px;
-display: none;
+  width: 350px;
+  height: 50px;
+  background-color: transparent;
+  margin: 10px auto;
+  border: 2px solid white;
+  display: none;
+  padding: 10px;
+  display:none;
+  position: relative;
+  overflow: auto;
+}
+.active{
+  display: block;
+}
+.item-template:hover{
+  background-color: #9fa1a3;
 
 }
-.active {
-  display: block;
+.item-template i{
+  color: white;
+  cursor: pointer;
+}
+.item-template .fa-times {
+  position: absolute;
+  top: 3px;
+  left: 330px;
+}
+.item-template .fa-pen {
+  position: absolute;
+  top: 3px;
+  left: 305px;
 }
